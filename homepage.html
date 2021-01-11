@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  
+<html >
+  <head>
+    <title>Covid-19 Go</title>
+    <link type="text/css"  rel="Stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){$("buttonn").click( function(){var music = document.getElementById('music');    
+       
+       if (music.paused){    
+           music.play();    
+             
+       }    
+       else{    
+           music.pause();    
+            
+       }  } );});
+
+
+       function switchBGM(){
+    var music = document.getElementById('music');    
+       
+    if (music.paused){    
+        music.play();    
+          
+    }    
+    else{    
+        music.pause();    
+         
+    }    
+
+}
+
+    
+   
+ 
+    
+    </script>
+  
+  </head>
+      <body>
+        <audio id="music" src="music.mp3"  loop="loop" preload="auto"></audio>   
+    <div id="wrapper"> 
+      <div id="bg"> 
+        <div id="header"></div>  
+        
+       
+          <div id="container"> 
+            
+            <div id="banner"></div>  
+          
+            <div id="nav1"> 
+              <ul>
+                <li id="current" style="border:none">
+                  <a href="#" shape="rect">homepage</a>
+                </li>
+                <li>
+                  <a href="page1.html" shape="rect">起源</a>
+                </li>
+                <li>
+                  <a href="page2.html" shape="rect">預防措施</a>
+                </li>
+                <li>
+                  <a href="page3.html" shape="rect">病毒資訊</a>
+                </li>
+                <li>
+                  <a href="page4.html" shape="rect">現狀</a>
+                </li>
+              </ul> 
+            </div>  
+            
+            <div id="content"> 
+                
+          
+              <div id="center"> 
+                  <h1>Covid-19</h1>  
+                  <p>Covid-19(全名為Coronavirus disease 2019)，中文為嚴重特殊傳染性肺炎。已知的首名病人2019年末於中華人民共和國湖北省武漢市確診，其後此病在全球各國大規模爆發並急速擴散，成為人類歷史上致死人數最多的流行病之一。截至2021年1月11日，全球已有191個國家和地區累計報告逾0.9億名確診個案，逾193.6萬名患者死亡，目前仍在持續擴散中。</p>  
+                  <div> 
+                    <img src="coka.png" style="height: 239px; width: 313px"/>
+                    <span>covid-19本人</span> 
+                    <button id="music" onclick="switchBGM()">music</button>
+                  </div>
+                  
+                 
+              </div> 
+              <!-- end center-->
+              
+                 <div id="right" style=" height:300px; ">
+                     <div id="directionsPanel" style="width:200; height:300px;  overflow-Y:auto"></div>
+                </div>              
+                <div class="clear" style="height:40px"></div> 
+            
+            </div> 
+            <!-- end content --> 
+         
+          </div>  
+          <!-- end container --> 
+      
+            <div id="footerWrapper"> 
+                <div id="footer"> 
+                  <a href="Covid-19 Easy Go.pptx" shape="rect">說明文件</a>
+              </div> 
+        </div> <!-- end footer Wrapper -->
+     
+      </div> <!-- end bg -->
+    </div>  <!-- end wrapper -->
+  </body>
+</html>

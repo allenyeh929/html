@@ -1,0 +1,322 @@
+
+html {
+	background-image:url( 5f.jpeg );
+	margin:0 0 0 -1px;
+	padding:0;	
+	overflow-Y:scroll;  
+}  
+
+
+body {  
+	padding:0;
+	margin :0;
+
+	width:100%;	
+}
+
+
+body {  
+	color:#656565; 
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal; 
+	text-transform: none; 
+		}
+
+body {  
+	
+	background-position:center;
+	background-repeat:repeat;
+}
+
+p {
+	letter-spacing: normal; 
+	line-height: 1.7em;
+	color: black;
+	font-size: 20px;
+}
+
+h1 {
+	color:#55c400; 
+	font-size:22px; 
+	margin:25px 0 10px 0;
+	clear:both; 
+}
+
+
+h2 {
+	color: red;
+	font-size:35px;
+	margin:20px 0 10px 0;
+	clear:both;
+}
+
+
+h3 {
+	color:#55c400;
+	font-size:18px;
+	margin:20px 0 5px 0;
+	clear:both;
+}
+
+
+
+a:link {
+	color:#1860a8; /*藍*/
+	text-decoration:none;
+}
+
+a:visited  /*已按過的link*/
+{
+	color:#8E388E; /*紫*/
+	text-decoration:none;
+}
+
+a:hover {  /*滑鼠在link上,加底線*/
+	color:#1860a8;
+	text-decoration:underline;
+}
+	
+					
+#wrapper  /*陰影*/
+{
+	
+	margin:0 auto ;  /*top=0 其他為自動*/
+	width:100%;
+}
+				
+#bg {  /*綠帶背景加上白底*/
+	margin:0 auto;
+	padding:0;
+	background:transparent ;
+	background-image:url(covid-19.png);
+ 	background-repeat:no-repeat;	
+	background-position: center  ;
+}
+
+
+#header { /*標題上的留白*/
+	margin: 0 auto;
+	min-height:0px; /*最小高度*/
+	height: 0px;
+	width: 880px;
+}
+	
+
+#title {  /*標題的圖*/
+	
+}
+				
+#container { /*內容*/
+	margin:0 auto;
+	width:880px;
+}
+
+#banner {  /*大標題的div*/
+	width: auto;
+    height: auto;
+	background: transparent url( title.png ) no-repeat  center ;
+	margin: 0 auto;
+	height:230px;
+	width:880px;
+}
+
+#nav1 { /*目錄*/
+	height:30px;
+	margin:0 auto ;
+	text-align:center;
+}
+
+	#nav1 ul {
+		display:table;
+		margin:0 auto;
+		padding:0;
+		list-style-type:none; /*不用設項目符號*/
+		position:relative;  
+		height:30px;
+		text-transform:uppercase; /*大寫*/
+		font-size:15px;
+		font-family: Verdana,Arial,sans-serif;
+	}
+
+
+		#nav1 ul li { /*一個目錄*/
+			display:block; /*分段顯示*/
+			float:left;
+			margin:0;
+			padding:0;
+			background:transparent url('abstract.jpg') repeat-x top left; /*目錄的背景*/
+		}
+
+			#nav1 ul li a { /*目錄裡的連結*/
+				display:block;
+				float:left;
+				color:#eeeeee; /*灰色*/
+				text-decoration:none;
+				padding:0px 50px ;
+				line-height:30px;
+				font-weight:bold;
+				letter-spacing:4px;
+			}
+
+
+			#nav1 ul li a:hover, #nav1 li#current a {  /*滑鼠在上*/
+				color:#ffffff; /*白色*/
+				
+			}
+
+#content { /*內文*/
+	width:860px;
+	margin:0 auto ;
+	text-align:left;
+	min-height:800px;
+}
+
+
+#content p {
+	text-align:justify;  /*對齊*/
+}
+
+div.image
+{
+	width:430px;
+	height:200px;
+}
+	
+#footerWrapper {  /*尾端圖片*/
+	margin:0 auto;
+	height:170px;
+	padding:0;
+	background:transparent url( white.jpg ) no-repeat scroll center top;
+}
+
+
+#footer {  
+	margin:0 auto;
+	padding:0;
+	width:880px;
+	height:90px;
+}
+
+
+	#footer {
+	color:#000000;
+	line-height:-5px;
+	text-align:center;
+}
+
+#footer a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+	
+	
+					
+#right {
+	width:200px;
+	height:auto;
+	padding:10px 20px 20px 20px;
+	float:right;
+}
+
+
+#center {
+	width:580px;
+	padding:10px 20px 20px 20px;
+	float:left;
+}
+
+ 
+#content p {
+	margin-top:10px;
+	text-align:justify;
+	float: left;
+}
+
+#map_canvas
+{
+	width:580px;
+	height:300px;
+	margin-top:10px;
+}
+										
+#sidebar ul.vmenu {
+	font-size: 17px;
+	list-style: none;
+	text-align: left;
+	margin: 7px 0px 8px 0px; 
+	padding: 0;
+	text-decoration: none;	
+	border-top: 1px solid #d8d8f0;
+}
+
+
+#sidebar ul.vmenu li {
+	list-style: none;
+	padding: 4px 0 4px 0px;
+	margin: 0 2px;	
+	border-bottom: 1px solid #d8d8f0;
+}
+
+
+
+#sidebar ul.vmenu li a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#sidebar ul.vmenu li a:hover {
+	color:#ffa500;
+}
+
+
+#sidebar ul.vmenu ul { margin: 0 0 0 5px; padding: 0; }
+#sidebar ul.vmenu ul li { border: none; }
+
+#textbar-1 {
+	overflow: scroll;
+	background-color: white;
+}
+
+#textbar-2 {
+	overflow: scroll;
+	background-color: white;
+	height: 600px;
+}
+
+a img {
+	border:none;
+} 
+
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.flex {
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-pack: justify;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: papayawhip;
+}
